@@ -93,6 +93,7 @@ public class SpringAwsAthenaApplication implements CommandLineRunner {
 
 
     public static void processResultRows(AthenaClient athenaClient, String queryExecutionId) {
+
         try {
             // Max Results can be set but if its not set,
             // it will choose the maximum page size
